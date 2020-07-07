@@ -90,7 +90,7 @@ function draw() {
 function keyPressed(){
 
 	if (keyCode === UP_ARROW){
-		Matter.Body.applyForce(paperBall.body, paperBall.body.position,{x:15 , y:-35});
+		Matter.Body.applyForce(paperBall.body, paperBall.body.position,{x:25 , y:-45});
 	}
 }
 
