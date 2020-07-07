@@ -8,9 +8,9 @@ class Paper {
           //opacity:100          
       }
       
-      this.body = Matter.Bodies.circle(x, y, 15, options);
-      this.width = 25;
-      this.height = 25;
+      this.body = Matter.Bodies.circle(x, y, 20, options);
+      this.width = 50;
+      this.height = 50;
       //this.radius = radius;
       this.image = loadImage("paper.png");
       //this.opacity = 100;
@@ -26,7 +26,7 @@ class Paper {
       ellipseMode(CENTER);
       fill(250);
       noStroke();
-      ellipse(0,0,this.width,this.height);
+      //ellipse(0,0,this.width,this.height);
 
       imageMode(CENTER);
       image(this.image, 0, 0, this.width, this.height);
